@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="intro-screen">
+            <h1>Shooting Game</h1>
+            <p>Select Difficulty Level:</p>
+            <button id="easy-btn">Easy</button>
+            <button id="medium-btn">Medium</button>
+            <button id="hard-btn">Hard</button>
+        </div>
+        <div id="game-over-screen" style="display: none;">
+            <h2>Game Over!</h2>
+            <p>Score: <span id="final-score"></span></p>
+            <button id="restart-btn">Restart</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
